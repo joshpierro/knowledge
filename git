@@ -1,0 +1,1 @@
+git branch | findstr 'feature/*' |% { git branch -D $_.trim() } - delete all feature branches 
